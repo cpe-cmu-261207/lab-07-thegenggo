@@ -57,5 +57,5 @@ export const randomCanvas = () => {
 
 export const PixelPainterStore = new Store<PixelPainterStoreType>({
   canvas: createEmptyCanvas(),
-  pickedColor: ""
+  pickedColor: colors[0]
 })
